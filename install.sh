@@ -7,7 +7,7 @@
 
 DIR=~/dotfiles
 OLDDIR=~/dotfiles_old
-FILES=".tmux.conf"
+FILES=".tmux.conf .vimrc .gitconfig .hushlogin"
 
 if [ ! -d ${OLDDIR} ]
 then
