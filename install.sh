@@ -21,7 +21,7 @@ cd $DIR
 
 for FILE in $FILES
 do
-	if [ -f ~/$FILE ]
+	if [ -e ~/$FILE ]
 	then
 		echo Backing up existing ${FILE}
 		mv ~/${FILE} ${OLDDIR}/${FILE}.$(date -Iminutes)
