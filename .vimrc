@@ -4,7 +4,8 @@ set smartcase
 set number
 
 syntax on
-colorscheme molokai_vivify
+" colorscheme molokai_vivify
+colorscheme monokai
 
 autocmd FileType python setlocal expandtab
 autocmd FileType python setlocal tabstop=4
